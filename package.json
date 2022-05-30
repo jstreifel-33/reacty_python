@@ -1,0 +1,17 @@
+{
+    "devDependencies": {
+        "parcel": "^2.6.0",
+        "parcel-transformer-transcrypt": "^0.1.4"
+    },
+    "parcel-transformer-transcrypt": {
+        "transcryptVersion": "3.9",
+        "watchAllFiles": true,
+        "command": "python -m transcrypt",
+        "arguments": [
+            "--nomin",
+            "--map",
+            "--verbose",
+            "--outdir src/__target__"
+        ]
+    }
+}
